@@ -3,23 +3,107 @@
   box-sizing: border-box;
 }
 h1{  font-family: rubik,sans-serif;  font-weight: 500;  font-style: normal;  color: #1f3b54; font-size: calc(24px + 0.75vw);}
-h2{  font-family: rubik,sans-serif;  font-weight: 500;  font-style: normal;  color: #1f3b54; font-size: calc(20px + 0.6vw);}
 a.content:link{ color: #045d3c;}
+a.content:visited{ font-weight: 200;  font-style: normal; color: purple;}
 a.content:hover{ color: #116a47;}
 a.content:active{ color: #1f3b54;}
 .clearfix:after {content: "";  display: table; clear: both;}
 .text_center {text-align: center;}
 .center {display: block;  margin-left: auto;  margin-right: auto;  width: 100%;  max-width:1365px;}
+.button {
+  background-color: #045d3c;
+  font-family: rubik,sans-serif;
+  color: white;
+  font-weight: 500;
+  font-style: normal;
+  border: none;
+  padding: 1.0% 1.0%;
+  text-align: center;
+  font-size: calc(8 + 0.45vw);
+  cursor: pointer;
+  width:100%;
+  transform-style: preserve-3d;
+}
+button.button:after {
+  top: -100%;
+  left: 0px;
+  color: white;
+  position: absolute;
+  background: #1f3b54;
+  font-family: rubik,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 2px;
+  padding: 1.0% 1.0%;
+  text-align: center;
+  font-size: calc(10+ 0.5vw);
+  cursor: pointer;
+  width:100%;
+  content: 'Click Here to Find a Home in Bozeman!';
+  transform-origin: left bottom;
+  transform: rotateX(90deg);
+}
+button.button:hover {
+transform-origin: center bottom;
+transform: rotateX(-90deg) translateY(100%);
+}
+.val_button {
+  background-color: #045d3c;
+  font-family: rubik,sans-serif;
+  color: white;
+  font-weight: 500;
+  font-style: normal;
+  border: none;
+  padding: 1.0% 1.0%;
+  text-align: center;
+  font-size: calc(8 + 0.45vw);
+  cursor: pointer;
+  width:100%;
+  transform-style: preserve-3d;
+}
+button.val_button:after {
+  top: -100%;
+  left: 0px;
+  color: white;
+  position: absolute;
+  background: #1f3b54;
+  font-family: rubik,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 2px;
+  padding: 1.0% 1.0%;
+  text-align: center;
+  font-size: calc(10+ 0.5vw);
+  cursor: pointer;
+  width:100%;
+  content: 'Find Out Today!';
+  transform-origin: left bottom;
+  transform: rotateX(90deg);
+}
+button.val_button:hover {
+  transform-origin: center bottom;
+  transform: rotateX(-90deg) translateY(100%);
+}
 .width-10 {width: 10%;}
+.width-15 {width: 15%;}
+.width-20 {width: 20%;}
 .width-25 {width: 25%;}
+.width-30 {width: 30%;}
 .width-33 {width: 33.3333%;}
+.width-35 {width: 35%;}
 .width-40 {width: 40%;}
+.width-45 {width: 45%;}
 .width-50 {width: 50%;}
+.width-55 {width: 55%;}
 .width-60 {width: 60%;}
+.width-65 {width: 65%;}
 .width-66 {width: 66.6667%;}
+.width-70 {width: 70%;}
 .width-75 {width: 75%;}
 .width-80 {width: 80%;}
+.width-85 {width: 85%;}
 .width-90 {width: 90%;}
+.width-95 {width: 95%;}
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
@@ -58,11 +142,8 @@ a.content:active{ color: #1f3b54;}
 }
 .cg_description {font-family: rubik,sans-serif;  font-weight: 400;  font-style: normal;  color: #414042; text-align: left; line-height: 2.0;  font-size: calc(9px + .35vw);}
 .area_description{font-family: rubik,sans-serif;  font-weight: 400;  font-style: normal;  color: #414042; text-align: left; line-height: 2.0;  font-size: calc(11px + .45vw);}
-.h1_font{  font-family: rubik,sans-serif;  font-weight: 500;  font-style: normal;  color: #1f3b54; font-size: calc(24px + 0.75vw);}
-.h2_font{  font-family: rubik,sans-serif;  font-weight: 500;  font-style: normal;  color: #1f3b54; font-size: calc(18px + 0.5vw);}
+.h1_font{  font-family: rubik,sans-serif;  font-weight: 500;  font-style: normal;  color: #414042; font-size: calc(20px + 0.5vw);}
+.h2_font{  font-family: rubik,sans-serif;  font-weight: 500;  font-style: normal;  color: #414042; font-size: calc(16px + 0.5vw);}
 .h3_font{  font-family: rubik,sans-serif;  font-weight: 500;  font-style: normal;  color: #414042; font-size: calc(12px + 0.5vw);}
 .regularfont{  font-family: rubik,sans-serif;  font-weight: 400;  font-style: normal;  color: #414042; font-size: calc(12px + 0.4vw); line-height: 1.5;}
-.featured_quote {margin-right: 25px; padding: 12px; border-top: 4px solid #045d3c; border-bottom: 4px solid #045d3c;}
-.quote_bold_italic {font-family: rubik,sans-serif; font-style: italic; font-weight: 500; position: relative; float: left; width: 300px; text-align: center;}
-.testimonial_text{font-style: italic; font-weight: normal; text-align:left; font-size: calc(8px + 0.5vw);}
 </style>
