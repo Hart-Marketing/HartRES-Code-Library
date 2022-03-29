@@ -1,0 +1,68 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+h1{  font-family: rubik,sans-serif;  font-weight: 500;  font-style: normal;  color: #1f3b54; font-size: calc(24px + 0.75vw);}
+h2{  font-family: rubik,sans-serif;  font-weight: 500;  font-style: normal;  color: #1f3b54; font-size: calc(20px + 0.6vw);}
+a.content:link{ color: #045d3c;}
+a.content:hover{ color: #116a47;}
+a.content:active{ color: #1f3b54;}
+.clearfix:after {content: "";  display: table; clear: both;}
+.text_center {text-align: center;}
+.center {display: block;  margin-left: auto;  margin-right: auto;  width: 100%;  max-width:1365px;}
+.width-10 {width: 10%;}
+.width-25 {width: 25%;}
+.width-33 {width: 33.3333%;}
+.width-40 {width: 40%;}
+.width-50 {width: 50%;}
+.width-60 {width: 60%;}
+.width-66 {width: 66.6667%;}
+.width-75 {width: 75%;}
+.width-80 {width: 80%;}
+.width-90 {width: 90%;}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 15px;
+}
+.column img { width: 100%; max-width: 700px;}
+.column_data{
+        border: 0;
+        float: left;
+        width: 50%;
+        height:50vh;
+        padding: 6px;
+        clip-path: inset(30px 0px 0px 0px);
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.gallery {border: 1px solid #beccd3;}
+.gallery:hover { border: 1px solid #414042;}
+.desc { padding: 10px; text-align: center; font-family: rubik,sans-serif;  font-weight: 400;  font-style: normal;  color: #414042; font-size: calc(12px + 0.35vw); line-height: 1.25;}
+.gallery img { width: 100%; max-width: 600px; }
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .gallery {
+    width: 100%;
+  }
+  .column_data {
+    width: 100%;
+  }
+}
+.cg_description {font-family: rubik,sans-serif;  font-weight: 400;  font-style: normal;  color: #414042; text-align: left; line-height: 2.0;  font-size: calc(9px + .35vw);}
+.area_description{font-family: rubik,sans-serif;  font-weight: 400;  font-style: normal;  color: #414042; text-align: left; line-height: 2.0;  font-size: calc(11px + .45vw);}
+.h1_font{  font-family: rubik,sans-serif;  font-weight: 500;  font-style: normal;  color: #1f3b54; font-size: calc(24px + 0.75vw);}
+.h2_font{  font-family: rubik,sans-serif;  font-weight: 500;  font-style: normal;  color: #1f3b54; font-size: calc(18px + 0.5vw);}
+.h3_font{  font-family: rubik,sans-serif;  font-weight: 500;  font-style: normal;  color: #414042; font-size: calc(12px + 0.5vw);}
+.regularfont{  font-family: rubik,sans-serif;  font-weight: 400;  font-style: normal;  color: #414042; font-size: calc(12px + 0.4vw); line-height: 1.5;}
+.featured_quote {margin-right: 25px; padding: 12px; border-top: 4px solid #045d3c; border-bottom: 4px solid #045d3c;}
+.quote_bold_italic {font-family: rubik,sans-serif; font-style: italic; font-weight: 500; position: relative; float: left; width: 300px; text-align: center;}
+.testimonial_text{font-style: italic; font-weight: normal; text-align:left; font-size: calc(8px + 0.5vw);}
+</style>
